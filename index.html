@@ -1,0 +1,23 @@
+
+<!doctype html>
+<html>
+	<head>
+	</head>
+
+	<body ng-app="app" ng-controller="mainCtrl">
+
+	<h1>Greetings</h1>
+	<h2 ng-show="person.name"><react-component name="Hello" props="person"/></h2>
+	<h2 ng-show="person.name"><hello name="person.name"/></h2>
+
+	<form>
+		<input type="text" ng-model="person.name" required placeholder="Type your name"/>
+	</form>
+
+	<script src="/bower_components/angular/angular.js"></script>
+	<script src="bower_components/react/react.js"></script>
+	<script src="bower_components/ngReact/ngReact.min.js"></script>
+	<script src="public/app.js"></script>
+	</body>
+
+</html>

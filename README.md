@@ -1,7 +1,7 @@
 
-# Angular test page
+# Angular-React test page
 
-A stub to follow the examples from the AngularJS website
+A simple page to play around with the ngReact library that combines Angular and React.
 
 # Running
 
